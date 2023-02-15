@@ -1,0 +1,92 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+}
+.stats-cnt {
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+.infor-cnt {
+  background-color: hsl(244, 38%, 16%);
+  width: 600px;
+  height: 500px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.infor-head {
+  margin-left: 50px;
+}
+
+.infor-ttl {
+  color: white;
+  font-size: 45px;
+  width: 600px;
+}
+.infor-bdy {
+  width: 445px;
+  color: rgb(171, 163, 163);
+  font-size: 16px;
+  line-height: 30px;
+}
+.stats-no {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 60px;
+}
+.cmpny-cnt {
+  margin-right: 20px;
+}
+.cmpny-no {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.cmpny {
+  font-size: 11px;
+  color: rgb(167, 152, 152);
+  margin-top: -10px;
+}
+.template-cnt {
+  margin-left: 90px;
+}
+.tmplt-no {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  padding-top: 0px;
+}
+.tmplt {
+  font-size: 11px;
+  color: rgb(167, 152, 152);
+  margin-top: -10px;
+}
+.query-cnt {
+  margin-left: 100px;
+}
+.qry-amnt {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.qry {
+  font-size: 11px;
+  color: rgb(167, 152, 152);
+  margin-top: -10px;
+}
+.img-cnt {
+  width: 600px;
+  height: 500px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: hsl(276, 81%, 26%);
+}
+.img {
+  width: 600px;
+  height: 500px;
+  filter: opacity(40%);
+  filter: drop-shadow(40%);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
